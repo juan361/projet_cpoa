@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{ECDAE4EB-D7C1-4565-97F8-152D04117B0A}" Label="" LastModificationDate="1640689868" Name="Projet_4" Objects="2" Symbols="0" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" signature="PRJ_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{ECDAE4EB-D7C1-4565-97F8-152D04117B0A}" Label="" LastModificationDate="1640689868" Name="définition_projet" Objects="2" Symbols="0" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" signature="PRJ_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -8,8 +8,8 @@
 <c:Children>
 <o:Project Id="o2">
 <a:ObjectID>ECDAE4EB-D7C1-4565-97F8-152D04117B0A</a:ObjectID>
-<a:Name>Projet_4</a:Name>
-<a:Code>Projet_4</a:Code>
+<a:Name>définition_projet</a:Name>
+<a:Code>définition_projet</a:Code>
 <a:CreationDate>1640689868</a:CreationDate>
 <a:Creator>jgsan</a:Creator>
 <a:ModificationDate>1640689868</a:ModificationDate>
@@ -165,6 +165,7 @@ DefaultChar=_
 Script=.convert_code(%Code%,&quot; &quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOptionsText>
+<a:Project.Template>1</a:Project.Template>
 <c:ProjectDiagrams>
 <o:ProjectDiagram Id="o3">
 <a:ObjectID>7091C40A-F9EA-484C-95DF-D088B6B3817E</a:ObjectID>

@@ -8,13 +8,13 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid 6115ca81-94fa-471c-9425-3fd58273cc58 */
+/** @pdOid f924a2be-7b6c-46d6-a464-b6e41a7a7904 */
 public class Ramasseur extends Personne {
-   /** @pdOid d7897a52-47e4-43f1-9e40-933c8fe31571 */
+   /** @pdOid 65e16123-4467-4fb8-817f-3597a0f90d93 */
    private int idRamasseur;
-   /** @pdOid 045fdbc0-28ff-4fb9-8aca-4cf735f5e80c */
+   /** @pdOid 71ff0921-72da-47c0-8ec8-e85b28143363 */
    private String nom;
-   /** @pdOid 88f5fec4-58bd-485b-8f08-8366a55abd0f */
+   /** @pdOid 4dcfb5f2-a414-4c1e-911f-1371c03ab1fe */
    private String prenom;
 
 }

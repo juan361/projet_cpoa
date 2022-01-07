@@ -8,17 +8,17 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid efb32662-11ab-4d47-978c-dc4aae9d10b8 */
+/** @pdOid d02c78b9-0a22-4e81-8e3f-ee54233be6b3 */
 public class Arbitre {
-   /** @pdOid 62fab357-6d46-44ad-a1c5-bf7fb3478208 */
+   /** @pdOid d2b94f89-0b56-4ae7-9cad-9ff5e429e9ef */
    private String nom;
-   /** @pdOid 4e20ca13-d605-460b-b75a-4c3f8896707a */
+   /** @pdOid 894fcd0d-c834-4a8d-8fb3-9cda4a8aa20b */
    private String prenom;
-   /** @pdOid 12a968f7-cfea-4388-b923-b5b8287b3582 */
+   /** @pdOid 6eaa9b4c-090f-4ed4-bdf6-cbd8e628114f */
    private String nationalite;
-   /** @pdOid 0b609894-e9e4-450a-af6f-abdd16efead8 */
+   /** @pdOid 6206f7e0-ad5a-4a24-a535-02b5e8ae451b */
    private String categorie;
-   /** @pdOid 53a6e123-bd28-41b6-9754-29040c10783d */
+   /** @pdOid fbd75a8e-6829-4f6d-8c2f-b52c76a4c71e */
    private int idArbitre;
 
 }

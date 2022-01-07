@@ -8,15 +8,15 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid 771bf1e4-dc9d-4006-98f9-a3eece15dbb4 */
+/** @pdOid 77a5cdea-6645-4d8f-a99d-427c7ea668bd */
 public class Planning {
-   /** @pdOid a0f31dc0-061c-4187-a596-7ad133f28c00 */
+   /** @pdOid 371699e3-e105-48e8-bfcd-b9c35c7907ef */
    private int idPlanning;
-   /** @pdOid 73168f97-3c0f-46e9-b748-1b48a89822ff */
+   /** @pdOid 866136da-431c-4123-8d4b-96805607220e */
    private date dateDabut;
-   /** @pdOid 9756e4ca-b1fe-4b4c-966d-f9a8c9cab4e3 */
+   /** @pdOid 4ca0832f-c3c1-4abd-97ee-2ea0f63f8f3d */
    private date dateFin;
-   /** @pdOid 1c2a7c67-900a-40bf-b2ff-ac1c0b72338d */
+   /** @pdOid 1653f9d1-e67e-471a-81b4-30f381011cd2 */
    private String libelle;
 
 }

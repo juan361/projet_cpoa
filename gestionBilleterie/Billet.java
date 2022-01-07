@@ -8,18 +8,20 @@ package gestionBilleterie;
 
 import java.util.*;
 
-/** @pdOid 8177b082-f48c-426c-b879-fa7950f992e3 */
+/** @pdOid 2ba0e3fd-f88b-4b71-b27b-10ab315f452b */
 public class Billet {
-   /** @pdOid 01d9ec84-ced8-4912-862b-0d368f98cab5 */
+   /** @pdOid 6f4cd709-cb49-473e-88e0-5a8af462d027 */
    private int prix;
-   /** @pdOid 7afea44f-320d-4581-92c2-fe80dc533199 */
+   /** @pdOid ff074a29-c28a-4a7d-8079-744add4f184d */
    private int date;
-   /** @pdOid f2260439-1420-4c14-8526-ce1f728142df */
+   /** @pdOid 98fa6c56-543b-4ee9-b66f-23f158d2760b */
    private int place;
-   /** @pdOid 93203537-39da-4704-96f1-858ec5af89e1 */
+   /** @pdOid 6e2429b0-5fbc-4900-af8c-4580a91a2eba */
    private String nCourt;
+   /** @pdOid d7aac1ad-da25-4dc9-9f29-b01874ce84bc */
+   private int numBillet;
    
    /** @pdRoleInfo migr=no name=Client assc=association6 mult=0..* */
-   public Client[] client;
+   public Client[] possède;
 
 }

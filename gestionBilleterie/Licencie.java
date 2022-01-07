@@ -8,12 +8,12 @@ package gestionBilleterie;
 
 import java.util.*;
 
-/** @pdOid 5edd3c13-a245-4ade-9a7b-3cbe8db7c8a0 */
-public class Licencie {
-   /** @pdOid 80055c63-29e9-466e-be72-6a1e69c5c63c */
+/** @pdOid 39af466f-2c26-4f27-b550-08861dcf334d */
+public class Licencie extends Client {
+   /** @pdOid 464c35ef-ba2e-4b0e-8ebf-e4c107dc0aba */
    private int numLicencie;
    
    /** @pdRoleInfo migr=no name=BilletLicencie assc=association2 mult=0..1 */
-   public BilletLicencie billetLicencie;
+   public BilletLicencie appartient;
 
 }

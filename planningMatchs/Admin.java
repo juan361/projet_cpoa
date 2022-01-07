@@ -1,6 +1,6 @@
 /***********************************************************************
  * Module:  Admin.java
- * Author:  p2007452
+ * Author:  p2005083
  * Purpose: Defines the Class Admin
  ***********************************************************************/
 
@@ -8,6 +8,6 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid 5f4a91ba-604e-4790-abc7-b941d5029c7d */
+/** @pdOid d6a7e1a9-a6f4-4b0f-b900-70b16d512ee8 */
 public class Admin extends Personne {
 }

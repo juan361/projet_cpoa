@@ -8,17 +8,17 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid e134b9b2-5a4e-4b23-b419-d1b2da4f39a0 */
+/** @pdOid 24ef12c9-be71-44a0-9eb3-04212e281a1a */
 public class Joueur extends Personne {
-   /** @pdOid 030c4705-bbd5-44e3-a3a2-0da777d6100f */
+   /** @pdOid f581661b-e4bd-4dcf-a6e3-19b98ad8966f */
    private int idJoueur;
-   /** @pdOid cdf0c494-40ec-46dd-8f60-68480f572654 */
+   /** @pdOid e65359cc-22da-4046-a69a-2daf40f1765b */
    private String nom;
-   /** @pdOid 335efe7a-aaf0-4331-97d7-3b693a4e917a */
+   /** @pdOid 9aacb16d-5a3f-4bd2-9485-7f337ea33f1a */
    private String prenom;
-   /** @pdOid 8ff7b531-2027-4b5b-8ddb-83d27a5ff9fa */
+   /** @pdOid a1dcbe62-abab-4d66-a8d2-c64e811246fc */
    private int atp;
-   /** @pdOid a289e11a-0d0f-4d52-81bc-6d1b38decc27 */
+   /** @pdOid 302146cd-e74a-42a7-901d-61cfc841f521 */
    private String nationnalite;
 
 }

@@ -8,9 +8,8 @@ package gestionBilleterie;
 
 import java.util.*;
 
-/** @pdOid 49613fb8-c194-42f0-8295-7e14891c9955 */
+/** @pdOid 0b026f66-0f2f-4ab5-9b2a-f6090990a942 */
 public class Planning {
    /** @pdRoleInfo migr=no name=Client assc=association3 mult=1 */
-   public Client client;
 
 }

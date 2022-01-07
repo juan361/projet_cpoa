@@ -8,9 +8,9 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid 6c0dcdaa-6f26-4ccd-87d1-c5e705f66c9e */
+/** @pdOid 5ad8eec5-632b-4a08-8005-82cf13e3d1ee */
 public class EquipeRamasseur {
-   /** @pdOid 47828e8d-f448-4a67-b860-5728a141b0e8 */
+   /** @pdOid ae697fcd-cd40-42fe-9769-281ca5c4d4f7 */
    private int idEquipeRamasseur;
    
    /** @pdRoleInfo migr=no name=Ramasseur assc=association1 coll=java.util.Collection impl=java.util.HashSet mult=6 type=Composition */

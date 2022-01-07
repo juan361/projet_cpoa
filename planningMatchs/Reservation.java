@@ -8,13 +8,13 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid 8bfc8c58-cc3b-466f-869f-b20028a42035 */
+/** @pdOid ac892ec5-2e20-4d60-812d-b198c826e233 */
 public class Reservation {
-   /** @pdOid 18ed096c-039b-4db5-906f-5e239a17bd5c */
+   /** @pdOid 7fc307a9-70bd-4f18-bc05-2acb28dd3a10 */
    private date date;
-   /** @pdOid 7fdee89e-512c-4f54-9eb3-7f51ed89beab */
+   /** @pdOid 38f285ff-fe70-4c30-83f5-d275b9e1c31f */
    private int heureDebut;
-   /** @pdOid 1c0b99be-bacf-43b9-a75e-08fe4f30443b */
+   /** @pdOid 966f1ea1-c870-4351-a1bc-5babc608fb65 */
    private int heureFin;
 
 }

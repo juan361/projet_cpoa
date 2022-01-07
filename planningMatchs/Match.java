@@ -8,32 +8,32 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid 62f0fa0f-1af6-4134-9db1-cf586905325c */
+/** @pdOid c7bcead5-6261-42a6-8763-3e224f1f8365 */
 public class Match {
-   /** @pdOid 4f991c47-f86d-4e06-9604-387a3bbb38b6 */
+   /** @pdOid bde1f877-f233-4853-965a-c5830542720a */
    private int idMatch;
-   /** @pdOid fe0ca8fd-48e6-4689-8982-956243fe47c1 */
+   /** @pdOid 04b91048-504b-4924-a34b-e99187f4e0af */
    private date date;
-   /** @pdOid 1ac5236f-f249-427e-b590-1f35fee43b13 */
+   /** @pdOid 5ff1715e-a3ba-4ecc-b398-f1f803c43006 */
    private int horaire;
-   /** @pdOid 9a11e1bf-b7da-4def-bb7b-4ae3b33207ae */
+   /** @pdOid 1be44b40-0136-4c40-b89e-b80d83eb3759 */
    private int score;
-   /** @pdOid aeac8851-ce38-4fd8-bfec-aa8a6df228fb */
+   /** @pdOid fa943186-97da-4643-9b6a-d4e018089a94 */
    private int indexGagnant;
    
-   /** @pdOid d8086d8d-9e37-4521-84c8-3a2778342616 */
+   /** @pdOid 80569874-2b15-4c69-abab-b23a2dd0acb7 */
    public int setScore() {
       // TODO: implement
       return 0;
    }
    
-   /** @pdOid eba1847b-6de8-4957-86f1-ab8ab17cba2f */
+   /** @pdOid a6d78c58-2645-4f59-b18d-d978e321ae8c */
    public int deplacer() {
       // TODO: implement
       return 0;
    }
    
-   /** @pdOid 3b7921a1-68d6-4475-85f9-d61663b26149 */
+   /** @pdOid 46fee084-f0eb-4679-8d92-2b45e1ee25a4 */
    public int modifier() {
       // TODO: implement
       return 0;

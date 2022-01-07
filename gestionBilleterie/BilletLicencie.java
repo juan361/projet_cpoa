@@ -8,9 +8,9 @@ package gestionBilleterie;
 
 import java.util.*;
 
-/** @pdOid 0da27741-c6cd-4bdb-9427-e96f5211545d */
-public class BilletLicencie {
-   /** @pdOid c9212e47-fc23-4052-a663-b1ec4517e737 */
+/** @pdOid bd360230-5e8e-4a09-912d-4054152e51e6 */
+public class BilletLicencie extends Billet {
+   /** @pdOid 062c8850-4b15-4550-835f-e7b14dac02e9 */
    private int age;
 
 }

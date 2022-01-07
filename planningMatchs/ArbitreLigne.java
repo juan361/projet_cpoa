@@ -1,6 +1,6 @@
 /***********************************************************************
  * Module:  ArbitreLigne.java
- * Author:  p2007452
+ * Author:  p2005083
  * Purpose: Defines the Class ArbitreLigne
  ***********************************************************************/
 
@@ -8,6 +8,6 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid 34fa898f-abe4-4dc4-af31-e56fd2b768fd */
+/** @pdOid 5b272fcd-af39-40b1-ae99-6e6e5987933c */
 public class ArbitreLigne extends Arbitre {
 }

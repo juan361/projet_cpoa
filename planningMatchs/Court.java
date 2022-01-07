@@ -8,11 +8,11 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid fc521840-4ecf-4f0a-9b31-7eceba98e3b7 */
+/** @pdOid d6ffafd0-2e05-4610-a09d-26a356505211 */
 public class Court {
-   /** @pdOid 9a888846-bbae-4776-aa4a-ef1492684b0e */
+   /** @pdOid 99c570a1-5497-4b89-ba31-3bd587701f67 */
    private int idCourt;
-   /** @pdOid b0b72bd4-e169-45d9-abdb-e7d294daded5 */
+   /** @pdOid a94bc3bc-e693-464e-9596-749e29a9e278 */
    private boolean principal;
 
 }

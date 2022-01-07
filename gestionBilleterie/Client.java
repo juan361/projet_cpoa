@@ -8,13 +8,13 @@ package gestionBilleterie;
 
 import java.util.*;
 
-/** @pdOid c0455657-7454-4561-a3d4-cebd0c628f57 */
+/** @pdOid 99d8bd61-efaa-40fc-8778-9fe0771d244e */
 public class Client {
-   /** @pdOid 12b06d29-12f4-4c86-b9f1-8874e9df291b */
+   /** @pdOid 865f9d66-1411-405d-97b2-567dda3b4011 */
    private int numClient;
-   /** @pdOid 4a0b315c-8692-4637-9881-5eb9ec15fc13 */
+   /** @pdOid 49b192d7-8b7d-4d83-b51e-fcb8f0f1de35 */
    private char nom;
-   /** @pdOid db8eaf16-a618-4762-9cb2-2e2e28beba82 */
+   /** @pdOid 357d1e88-4c5c-4af4-a69e-38676aca6505 */
    private char prenom;
 
 }

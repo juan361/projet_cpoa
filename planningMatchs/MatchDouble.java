@@ -1,6 +1,6 @@
 /***********************************************************************
  * Module:  MatchDouble.java
- * Author:  p2007452
+ * Author:  p2005083
  * Purpose: Defines the Class MatchDouble
  ***********************************************************************/
 
@@ -8,6 +8,6 @@ package planningMatchs;
 
 import java.util.*;
 
-/** @pdOid ab223b81-790f-4b14-9376-9cdf2cd89323 */
+/** @pdOid 3e156829-093e-4200-bf11-1bb8b381dbe5 */
 public class MatchDouble extends Match {
 }

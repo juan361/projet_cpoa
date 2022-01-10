@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:8889
--- Généré le : lun. 10 jan. 2022 à 15:07
+-- Généré le : lun. 10 jan. 2022 à 15:50
 -- Version du serveur :  5.7.34
 -- Version de PHP : 7.4.21
 
@@ -32,6 +32,32 @@ CREATE TABLE `Arbitre` (
   `nationalite` varchar(40) NOT NULL,
   `catégorie` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `Arbitre`
+--
+
+INSERT INTO `Arbitre` (`id_arbitre`, `nationalite`, `catégorie`) VALUES
+(1, 'India', 'ITT1'),
+(2, 'Indonesia', 'ITT1'),
+(3, 'Poland', 'JAT2'),
+(4, 'Turkey', 'JAT2'),
+(5, 'Turkey', 'ITT1'),
+(6, 'Ireland', 'ITT1'),
+(7, 'Russian Federation', 'JAT2'),
+(8, 'Costa Rica', 'JAT2'),
+(9, 'France', 'ITT1'),
+(10, 'Poland', 'ITT1'),
+(11, 'United Kingdom', 'JAT2'),
+(12, 'South Korea', 'JAT2'),
+(13, 'Italy', 'ITT1'),
+(14, 'United Kingdom', 'ITT1'),
+(15, 'India', 'JAT2'),
+(16, 'Spain', 'JAT2'),
+(17, 'Sweden', 'ITT1'),
+(18, 'Canada', 'ITT1'),
+(19, 'Costa Rica', 'JAT2'),
+(20, 'Netherlands', 'JAT2');
 
 -- --------------------------------------------------------
 
@@ -64,6 +90,32 @@ CREATE TABLE `Association` (
   `nom_asso` varchar(40) NOT NULL,
   `code_asso` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `Association`
+--
+
+INSERT INTO `Association` (`num_asso`, `nom_asso`, `code_asso`) VALUES
+(21, 'Orci LLC', 3884),
+(22, 'Orci Ut Semper PC', 6613),
+(23, 'Phasellus LLP', 3092),
+(24, 'Aliquam Vulputate Ullamcorper Incorporat', 2858),
+(25, 'Dui Cum Sociis Inc.', 3155),
+(26, 'Pede Blandit Corporation', 5718),
+(27, 'Ornare Libero PC', 9621),
+(28, 'Odio Etiam Industries', 1671),
+(29, 'Rutrum Non Institute', 8040),
+(30, 'Tempus Lorem Fringilla Incorporated', 4631),
+(31, 'Interdum Libero Ltd', 4281),
+(32, 'Aliquet Magna Industries', 8782),
+(33, 'Arcu Nunc Mauris Associates', 5419),
+(34, 'Non Ltd', 2765),
+(35, 'Sociis Inc.', 7080),
+(36, 'Curabitur Consequat Lectus Consulting', 3322),
+(37, 'Risus Donec Egestas Corp.', 3839),
+(38, 'Nibh Enim Institute', 4536),
+(39, 'Parturient Montes LLP', 6098),
+(40, 'Dolor Dolor PC', 3700);
 
 -- --------------------------------------------------------
 
@@ -123,6 +175,16 @@ CREATE TABLE `Court` (
   `principal` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Déchargement des données de la table `Court`
+--
+
+INSERT INTO `Court` (`id_court`, `principal`) VALUES
+(1, 1),
+(2, 0),
+(3, 0),
+(4, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -156,6 +218,62 @@ CREATE TABLE `Joueur` (
   `nationalite` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Déchargement des données de la table `Joueur`
+--
+
+INSERT INTO `Joueur` (`id_joueur`, `ATP`, `nationalite`) VALUES
+(51, 79, 'Brazil'),
+(52, 14, 'Vietnam'),
+(53, 48, 'Canada'),
+(54, 41, 'Spain'),
+(55, 59, 'Netherlands'),
+(56, 164, 'Mexico'),
+(57, 58, 'Austria'),
+(58, 160, 'France'),
+(59, 171, 'Nigeria'),
+(60, 46, 'Peru'),
+(61, 17, 'Chile'),
+(62, 155, 'United Kingdom'),
+(63, 33, 'Indonesia'),
+(64, 35, 'Italy'),
+(65, 76, 'France'),
+(66, 163, 'Ireland'),
+(67, 112, 'Chile'),
+(68, 179, 'Netherlands'),
+(69, 130, 'China'),
+(70, 88, 'Russian Federation'),
+(71, 178, 'Peru'),
+(72, 199, 'Costa Rica'),
+(73, 142, 'Ireland'),
+(74, 187, 'Poland'),
+(75, 155, 'Mexico'),
+(76, 63, 'South Korea'),
+(77, 26, 'South Korea'),
+(78, 60, 'Mexico'),
+(79, 103, 'New Zealand'),
+(80, 77, 'United States'),
+(81, 188, 'Costa Rica'),
+(82, 28, 'Peru'),
+(83, 87, 'New Zealand'),
+(84, 167, 'Norway'),
+(85, 81, 'United States'),
+(86, 137, 'Costa Rica'),
+(87, 83, 'Norway'),
+(88, 78, 'Pakistan'),
+(89, 72, 'Russian Federation'),
+(90, 173, 'Austria'),
+(91, 137, 'Indonesia'),
+(92, 2, 'Brazil'),
+(93, 104, 'Mexico'),
+(94, 192, 'United Kingdom'),
+(95, 25, 'China'),
+(96, 142, 'Austria'),
+(97, 185, 'Pakistan'),
+(98, 192, 'Peru'),
+(99, 114, 'Indonesia'),
+(100, 18, 'France');
+
 -- --------------------------------------------------------
 
 --
@@ -165,6 +283,32 @@ CREATE TABLE `Joueur` (
 CREATE TABLE `Licencie` (
   `num_licencie` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `Licencie`
+--
+
+INSERT INTO `Licencie` (`num_licencie`) VALUES
+(11851),
+(23457),
+(27501),
+(30617),
+(35675),
+(41240),
+(48764),
+(49417),
+(59039),
+(63656),
+(65616),
+(67072),
+(68901),
+(72950),
+(78368),
+(83868),
+(85498),
+(85909),
+(93894),
+(95833);
 
 -- --------------------------------------------------------
 
@@ -211,6 +355,112 @@ CREATE TABLE `Personne` (
   `prenom` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Déchargement des données de la table `Personne`
+--
+
+INSERT INTO `Personne` (`nom`, `prenom`) VALUES
+('Hayden', 'Gonzales'),
+('Lunea', 'Gilmore'),
+('Moana', 'Henson'),
+('Hope', 'Williamson'),
+('Chester', 'Munoz'),
+('Miranda', 'Gardner'),
+('Oprah', 'Craft'),
+('Edan', 'Mcfarland'),
+('Scarlett', 'Cash'),
+('Mollie', 'Blackwell'),
+('Raven', 'Ross'),
+('Benjamin', 'Dean'),
+('Evangeline', 'Sutton'),
+('Hope', 'Mcfarland'),
+('Lara', 'Rowe'),
+('Kirsten', 'Suarez'),
+('Martena', 'Hays'),
+('Marah', 'Rivers'),
+('Anne', 'Reese'),
+('Rhiannon', 'O\'connor'),
+('Quon', 'Holloway'),
+('Audrey', 'Howell'),
+('Brendan', 'Lindsay'),
+('Patience', 'Mejia'),
+('Daniel', 'Leon'),
+('Audrey', 'Best'),
+('Xantha', 'Walls'),
+('Carlos', 'Franklin'),
+('Hedwig', 'Horn'),
+('Alfreda', 'Becker'),
+('Leah', 'Buckner'),
+('Abraham', 'Hill'),
+('Elijah', 'Mccray'),
+('Cullen', 'Austin'),
+('Uriel', 'Oliver'),
+('Bevis', 'Morgan'),
+('Patricia', 'Henderson'),
+('Faith', 'Francis'),
+('Kenyon', 'English'),
+('Colleen', 'Harmon'),
+('Dustin', 'Wilder'),
+('Jena', 'Collins'),
+('Emery', 'Mejia'),
+('Tatyana', 'Martin'),
+('Merritt', 'Hansen'),
+('Ivan', 'Cardenas'),
+('Stone', 'Reeves'),
+('Lucas', 'Stafford'),
+('Slade', 'Pace'),
+('Giacomo', 'Burgess'),
+('Martina', 'Woods'),
+('Chase', 'Richmond'),
+('Jackson', 'Koch'),
+('Odessa', 'Randall'),
+('Meghan', 'Wright'),
+('Vladimir', 'Richmond'),
+('Jennifer', 'Zimmerman'),
+('Perry', 'Padilla'),
+('Geraldine', 'Weiss'),
+('Maryam', 'Barry'),
+('Eleanor', 'Casey'),
+('Cody', 'Stephenson'),
+('Cassidy', 'Hewitt'),
+('Bruno', 'Floyd'),
+('Faith', 'Pacheco'),
+('Wyatt', 'Glass'),
+('Emma', 'Mcneil'),
+('Jenette', 'Emerson'),
+('Zia', 'Crawford'),
+('Len', 'Wilson'),
+('Edward', 'Lara'),
+('Hayes', 'Parsons'),
+('Cheyenne', 'Bradford'),
+('Damon', 'Ryan'),
+('Donovan', 'Wong'),
+('Ivan', 'Harrison'),
+('Igor', 'Larsen'),
+('Chava', 'Watkins'),
+('Melodie', 'Gibbs'),
+('Dorian', 'Whitney'),
+('Hoyt', 'Burt'),
+('Leo', 'Maddox'),
+('Connor', 'Lawrence'),
+('Imani', 'Hurley'),
+('Garrison', 'Mercado'),
+('Kyla', 'Swanson'),
+('Keelie', 'Kerr'),
+('Kylan', 'Bradshaw'),
+('Aileen', 'Slater'),
+('Preston', 'Gamble'),
+('Debra', 'Weeks'),
+('Channing', 'Vang'),
+('Caleb', 'Wheeler'),
+('Bradley', 'Forbes'),
+('Hillary', 'Petersen'),
+('Robert', 'Malone'),
+('Cody', 'Fuentes'),
+('Echo', 'Gross'),
+('Bert', 'Daniels'),
+('Anthony', 'Delaney');
+
 -- --------------------------------------------------------
 
 --
@@ -233,6 +483,62 @@ CREATE TABLE `Planning` (
 CREATE TABLE `Ramasseur` (
   `id_ramasseur` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `Ramasseur`
+--
+
+INSERT INTO `Ramasseur` (`id_ramasseur`) VALUES
+(1),
+(2),
+(3),
+(4),
+(5),
+(6),
+(7),
+(8),
+(9),
+(10),
+(11),
+(12),
+(13),
+(14),
+(15),
+(16),
+(17),
+(18),
+(19),
+(20),
+(21),
+(22),
+(23),
+(24),
+(25),
+(26),
+(27),
+(28),
+(29),
+(30),
+(31),
+(32),
+(33),
+(34),
+(35),
+(36),
+(37),
+(38),
+(39),
+(40),
+(41),
+(42),
+(43),
+(44),
+(45),
+(46),
+(47),
+(48),
+(49),
+(50);
 
 -- --------------------------------------------------------
 
@@ -374,13 +680,13 @@ ALTER TABLE `Reservation`
 -- AUTO_INCREMENT pour la table `Arbitre`
 --
 ALTER TABLE `Arbitre`
-  MODIFY `id_arbitre` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_arbitre` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT pour la table `Association`
 --
 ALTER TABLE `Association`
-  MODIFY `num_asso` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `num_asso` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT pour la table `Billet`
@@ -398,7 +704,7 @@ ALTER TABLE `Client`
 -- AUTO_INCREMENT pour la table `Court`
 --
 ALTER TABLE `Court`
-  MODIFY `id_court` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_court` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT pour la table `Equipe_ramasseurs`
@@ -410,13 +716,13 @@ ALTER TABLE `Equipe_ramasseurs`
 -- AUTO_INCREMENT pour la table `Joueur`
 --
 ALTER TABLE `Joueur`
-  MODIFY `id_joueur` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_joueur` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 
 --
 -- AUTO_INCREMENT pour la table `Licencie`
 --
 ALTER TABLE `Licencie`
-  MODIFY `num_licencie` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `num_licencie` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=95834;
 
 --
 -- AUTO_INCREMENT pour la table `Matchs`
@@ -434,7 +740,7 @@ ALTER TABLE `Planning`
 -- AUTO_INCREMENT pour la table `Ramasseur`
 --
 ALTER TABLE `Ramasseur`
-  MODIFY `id_ramasseur` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_ramasseur` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT pour la table `Reservation`

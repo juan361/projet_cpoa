@@ -6,6 +6,7 @@
 
 package planningMatchs;
 
+import java.sql.Date;
 import java.util.*;
 
 /** @pdOid c7bcead5-6261-42a6-8763-3e224f1f8365 */
@@ -13,7 +14,7 @@ public class Match {
    /** @pdOid bde1f877-f233-4853-965a-c5830542720a */
    private int idMatch;
    /** @pdOid 04b91048-504b-4924-a34b-e99187f4e0af */
-   private date date;
+   private Date date;
    /** @pdOid 5ff1715e-a3ba-4ecc-b398-f1f803c43006 */
    private int horaire;
    /** @pdOid 1be44b40-0136-4c40-b89e-b80d83eb3759 */

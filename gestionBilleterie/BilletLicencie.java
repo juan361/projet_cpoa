@@ -12,5 +12,7 @@ import java.util.*;
 public class BilletLicencie extends Billet {
    /** @pdOid 062c8850-4b15-4550-835f-e7b14dac02e9 */
    private int age;
+   private int numL;
+
 
 }

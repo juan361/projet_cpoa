@@ -21,9 +21,7 @@ public class Match {
    private int score;
    /** @pdOid fa943186-97da-4643-9b6a-d4e018089a94 */
    private int indexGagnant;
-   public Match(int id, ){
 
-   }
 
 
    /** @pdOid 80569874-2b15-4c69-abab-b23a2dd0acb7 */

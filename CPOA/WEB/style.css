@@ -39,10 +39,10 @@ position: relative;
 color:white;
 }
 
-ul li:hover 
-{
-font-weight: bold;
-}
+    ul li:hover {
+    font-weight: bold;
+    color: #036B77;
+    }
 
 ul li:hover ul
 {
@@ -123,6 +123,32 @@ font-weight: bold;
 font-size: 35px;
 font-family: Arial;
 margin: 10px 40px ;
+}
+
+/*Page articles*/
+
+.conteneurArticles
+{
+float:left;
+margin: 0px;
+padding-left:0px;
+display: block;
+width:960px;
+height:780px;
+}
+
+.conteneurArticles div a
+{
+display: block;
+width:250px;
+height:335px;
+text-align:center;
+float: left;
+font-family: calibri;
+text-align: center;
+text-decoration: none;
+padding: 0px;
+margin: 0px 68px 50px 0px;
 }
 
 /*Page épicerie des pays*/
@@ -587,7 +613,6 @@ border-radius: 10%;
 
 
 
-
 /*Style taille de téléphone*/		
 
 @media screen and (max-width: 800px) {
@@ -612,7 +637,6 @@ ul.menu ul
     position: absolute;
     top: 100%;
     display: none;
-    border: 1px solid purple;
     left: -22.5%;
 }
 
@@ -1002,7 +1026,6 @@ ul.menu ul
     position: absolute;
     top: 100%;
     display: none;
-    border: 1px solid purple;
     left: -10%;
     width:133px;
     text-align:center;

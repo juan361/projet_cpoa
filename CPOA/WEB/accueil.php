@@ -1,3 +1,7 @@
+<?php
+include_once('../header.php');
+?>
+
 <!DOCTYPE html>
 <html id="page" lang="fr">
     <head>
@@ -8,7 +12,7 @@
     <body> 
         <div class="image1">
             <a href="#">
-                <img src="terrain.jpg" style="width:70%; height:70%;" alt="image d'accueil" />
+                <img src="terrain.jpg" style="width:80%; height:80%;" alt="image d'accueil" />
                 <p class="parag"> Actualités : </p>
                 <p class="parag">Lorem ipsum, lorem, ipsum, Lorem ipsum, lorem, ipsum, Lorem ipsum, lorem, ipsum, </p>
                 <p class="parag">Lorem ipsum, lorem, ipsum, Lorem ipsum, lorem, ipsum, Lorem ipsum, lorem, ipsum, </p>

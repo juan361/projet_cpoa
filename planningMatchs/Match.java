@@ -25,7 +25,7 @@ public class Match {
 
 
    /** @pdOid 80569874-2b15-4c69-abab-b23a2dd0acb7 */
-   public int setScore() {
+   public int setScore(int score) {
       // TODO: implement
       return 0;
    }

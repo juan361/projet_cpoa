@@ -19,12 +19,12 @@ public class Joueur extends Personne {
    /** @pdOid 302146cd-e74a-42a7-901d-61cfc841f521 */
    private String nationnalite;
 
-   public Joueur(String n, String p, int classement, String nat){
+   public Joueur(String nom, String prenom, int classement, String nationalite){
       this.idJoueur= Math.random() * ( 100 - 50 );
-      this.nom = n;
-      this.prenom = p;
+      this.nom = nom;
+      this.prenom = prenom;
       this.atp = classement;
-      this.nationnalite= nat;
+      this.nationnalite= nationalite;
    }
 
    public double getIdJoueur() {

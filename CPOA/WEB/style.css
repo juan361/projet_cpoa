@@ -1,154 +1,273 @@
 /*Style taille ordinateur*/
 
-/*Page principale et en-tête*/
+/*Header*/
 
 #page 
 {
-background-color: #ff9b58;
+    background-color: rgb(221, 113, 40);
 }
 
 .remplissage 
 {
-background-color: rgb(255, 115, 22);
-padding: 10px;
-float: none;
-position: relative;
+    background-color: rgb(209, 84, 0);
+    padding: 10px;
+    float: none;
+    position: relative;
 }
 
 .entete
 {
-text-decoration: none;
+    text-decoration: none;
 }
 
 ul 
 {
-text-align: center;
-font-family: Arial;
-font-size: 15px;
-width: 200px;
-padding:10px;
-list-style:none;
-background-color: #ff7316;
-justify-content: center;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    width: 200px;
+    padding:10px;
+    list-style:none;
+    background-color: rgb(209, 84, 0);
+    justify-content: center;
 }
 
 ul li 
 {
-padding:10px 155px;
-position: relative;
-color:white;
+    padding:10px 155px;
+    position: relative;
+    color:white;
 }
 
-    ul li:hover {
+ul li:hover {
     font-weight: bold;
-    color: #036B77;
-    }
+}
 
 ul li:hover ul
 {
-display: block;
+    display: block;
 }
 
 ul li a
 {
-text-decoration: none;
-color:white;
+    text-decoration: none;
+    color:white;
 }
 
 ul li a:hover 
 {
-color: white;
-font-weight: bold;
+    color: white;
+    font-weight: bold;
 }
 
 ul li ul li
 {
-padding:10px;
+    padding:10px;
 }
 
 ul ul
 {
-position:absolute;
-top:0px;
-display:block;
-font-weight: lighter;
+    position:absolute;
+    top:0px;
+    display:block;
+    font-weight: lighter;
 }	
 
 ul.menu
 {
-text-decoration: none;
-display:flex;
-width: 98%;
-padding: 0px;
-text-align:center;
-margin: 20px;
+    text-decoration: none;
+    display:flex;
+    width: 98%;
+    padding: 0px;
+    text-align:center;
+    margin: 20px;
 }
 
 ul.menu li
 {
-padding: 1% 8.5%;
+    padding: 1% 8.5%;
 }
 
 ul.menu ul 
 {
-position: absolute;
-top: 100%;
-display: none;
-margin: 0px 50px;
-width: 75%;
-left: -4.5%;
-padding: 0px;
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 0px 50px;
+    width: 75%;
+    left: -4.5%;
+    padding: 0px;
 }
 
 ul.menu ul li
 {
-padding: 10px;
+    padding: 10px;
 }
 
 #titre
 {
-text-align: center;
-color: white;
-font-weight: bold;
-font-size: 50px;
-font-family: Arial;
-margin: 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Arial;
+    margin: 0px;
 }
 
 #slogan
 {
-text-align: center;
-color: white;
-font-weight: bold;
-font-size: 35px;
-font-family: Arial;
-margin: 10px 40px ;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial;
+    margin: 10px 40px ;
 }
 
-/*Page articles*/
+/*Accueil*/
 
-.conteneurArticles
+.image1
 {
-float:left;
-margin: 0px;
-padding-left:0px;
-display: block;
-width:960px;
-height:780px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-bottom: 20px;
 }
 
-.conteneurArticles div a
+.hlink /*hyperlink*/
 {
-display: block;
-width:250px;
-height:335px;
-text-align:center;
-float: left;
-font-family: calibri;
-text-align: center;
-text-decoration: none;
-padding: 0px;
-margin: 0px 68px 50px 0px;
+    background-color: rgba(209, 84, 0,0.7);
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    display: block;
+    justify-content: left;
+    margin: -130px 0px 0px 10px;
+    padding: 10px;
+}
+
+.parag
+{
+    background-color: rgba(209, 84, 0,0.7);
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    display: block;
+    justify-content: left;
+    position: absolute;
+    margin: -75px 0px 0px 10px;
+    padding: 10px;
+}
+
+.olink /*other link*/
+{
+    background-color: rgba(209, 84, 0,0.7);
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    display: block;
+    justify-content: center;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+}
+
+.conteneurPages
+{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left:13.5%;
+    display: block;
+    height:600px;
+    background-color: rgb(61, 29, 148);
+    }
+
+.conteneurPages div
+{
+    width:300px;
+    height:500px;
+    float: left;
+    text-align:center;
+    font-family: Arial;
+    text-decoration: none;
+    margin-left:10px;
+    padding: 25px;
+    justify-content: center;
+    border: 1.5px solid rgba(255, 255, 255, 0.884);
+}
+
+.conteneurPages div p
+{
+    background-color: rgb(255, 114, 20, 0.7);
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    display: block;
+    justify-content: center;
+    margin: -80px 0px 0px 60px;
+    padding: 10px;
+}
+
+#footerText
+{
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    font-family: Arial;
+}
+
+.conteneurPartenaires 
+{
+    width:70%;
+    height:130px;
+    margin-top: -20px;
+    margin-right: 100px;
+    padding-left:25%;
+    justify-content: center;
+}
+
+.conteneurPartenaires div
+{
+    float:left;
+    width:auto;
+    height:80px;
+    margin-left:-10px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.conteneurSocMedia 
+{
+    width:70%;
+    height:100px;
+    margin-top: -20px;
+    padding-left:41%;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+.conteneurSocMedia div
+{
+    float:left;
+    width:50px;
+    height:50px;
+    margin-left:-10px;
+    padding: 25px;
+    justify-content: center;
+}
+
+#copyright
+{
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    color:white;
+    font-family: Arial;
 }
 
 /*Page épicerie des pays*/

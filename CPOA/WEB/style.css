@@ -270,6 +270,74 @@ ul.menu ul li
     font-family: Arial;
 }
 
+#titre2
+{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    margin-left: 20px; 
+}
+
+#titre3
+{
+    text-align: left;
+    color: rgb(61, 29, 148);
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 50px; 
+}
+
+.conteneurBillets 
+{
+    width:72.5%;
+    height:420px;
+    margin: -20px 0px 0px 20px;
+    justify-content: center;
+    border: 1.5px solid white;
+}
+
+.conteneurBillets div
+{
+    float:left;
+    width:auto;
+    height:80px;
+    margin-left: 0px;
+    padding: 15px;
+}
+
+.conteneurTBillets 
+{
+    width: 72.5%;
+    height: 280px;
+    margin: -20px 0px 0px 20px;
+    justify-content: center;
+    border: 1px solid rgb(61, 29, 148);
+}
+
+.conteneurTBillets div
+{
+    float:left;
+    width:auto;
+    height:100%;
+    margin-left: -10px;
+    margin-top:-20px;
+    padding: 15px;
+}
+
+.conteneurTBillets div a
+{
+    background-color: rgb(61, 29, 148);
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    display: block;
+    justify-content: center;
+    margin: -50px 0px 0px -2.5px;
+    padding: 5px;
+    text-decoration: none;
+}
 
 /***n'appartient pas au site*/
 

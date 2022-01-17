@@ -1,4 +1,4 @@
-<?php require('header.php');?>
+<?php include_once('header.php');?>
 
 <form action="#" method="post">
     <p>login</p><input type="text" name="login">
@@ -7,4 +7,4 @@
     <input type="submit" value="Deconnexion" name="deconnexion">
 </form>
 
-<?php require('footer.php');?>
+<?php include_once('footer.php');?>

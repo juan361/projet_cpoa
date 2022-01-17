@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html id="page" lang="fr">
-
 	<head>
 		<title>Open Parc Auvergne Rhône-Alpes</title>
 		<link rel="stylesheet" href="style.css" >
@@ -26,4 +25,4 @@
 		<li><a href="billeterie.html">Boutique</a></li>
         <li><a href="billeterie.html">Se connecter</a></li>
 	</ul>
-    </html>
+</html>

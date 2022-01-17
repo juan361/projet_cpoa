@@ -21,6 +21,14 @@ class ClientManager{
         return $clients;
     }
 
+    public function createClient(Client $client){
+        $query=$this->_db->prepare('INSERT INTO CLient VALUES(:num,:nom,:prenom)');
+        $query->bindValue(':num', $client->getNumClient());
+        $query->bindValue(':nom',$client->getNom());
+        $query->bindValue(':prenom',$client->getPrenom());
+        $query->execute();
+    }
+
 
 
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:8889
--- Généré le : lun. 10 jan. 2022 à 15:50
+-- Généré le : lun. 17 jan. 2022 à 15:41
 -- Version du serveur :  5.7.34
 -- Version de PHP : 7.4.21
 
@@ -129,27 +129,9 @@ CREATE TABLE `Billet` (
   `prix` int(11) NOT NULL,
   `date` varchar(40) NOT NULL,
   `place` int(11) NOT NULL,
-  `type_tournoi` varchar(40) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
--- Structure de la table `Billet_association`
---
-
-CREATE TABLE `Billet_association` (
-  `num_billet` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
--- Structure de la table `Billet_licencie`
---
-
-CREATE TABLE `Billet_licencie` (
-  `num_billet` int(11) NOT NULL
+  `type_tournoi` varchar(40) NOT NULL,
+  `code_promo` varchar(40) NOT NULL,
+  `num_licence` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -290,6 +272,7 @@ CREATE TABLE `Licencie` (
 
 INSERT INTO `Licencie` (`num_licencie`) VALUES
 (11851),
+(12345),
 (23457),
 (27501),
 (30617),
@@ -588,18 +571,6 @@ ALTER TABLE `Billet`
   ADD PRIMARY KEY (`num_billet`);
 
 --
--- Index pour la table `Billet_association`
---
-ALTER TABLE `Billet_association`
-  ADD KEY `etrangere_billet2` (`num_billet`);
-
---
--- Index pour la table `Billet_licencie`
---
-ALTER TABLE `Billet_licencie`
-  ADD KEY `etrangere_billet` (`num_billet`);
-
---
 -- Index pour la table `Client`
 --
 ALTER TABLE `Client`
@@ -763,18 +734,6 @@ ALTER TABLE `Arbitre_chaise`
 --
 ALTER TABLE `Arbitre_ligne`
   ADD CONSTRAINT `etrangere_idarbitre` FOREIGN KEY (`id_arbitre`) REFERENCES `Arbitre` (`id_arbitre`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Contraintes pour la table `Billet_association`
---
-ALTER TABLE `Billet_association`
-  ADD CONSTRAINT `etrangere_billet2` FOREIGN KEY (`num_billet`) REFERENCES `Billet` (`num_billet`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Contraintes pour la table `Billet_licencie`
---
-ALTER TABLE `Billet_licencie`
-  ADD CONSTRAINT `etrangere_billet` FOREIGN KEY (`num_billet`) REFERENCES `Billet` (`num_billet`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Contraintes pour la table `Duo_joueur`

@@ -4,7 +4,7 @@
  * Purpose: Defines the Class EquipeRamasseur
  ***********************************************************************/
 
-package DAO;
+package Planning_Match;
 
 import java.util.*;
 

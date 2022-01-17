@@ -4,7 +4,7 @@
  * Purpose: Defines the Class Court
  ***********************************************************************/
 
-package DAO;
+package Planning_Match;
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ public class Court {
    private int idCourt;
    private int principal;
 
-public Court(int id, int princ){
+public CourtDAO(int id, int princ){
    this.idCourt = id;
    if(princ ==0 || princ == 1){
       this.principal = princ;

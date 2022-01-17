@@ -4,7 +4,7 @@
  * Purpose: Defines the Class Planning
  ***********************************************************************/
 
-package DAO;
+package Planning_Match;
 
 import java.sql.Date;
 import java.util.*;

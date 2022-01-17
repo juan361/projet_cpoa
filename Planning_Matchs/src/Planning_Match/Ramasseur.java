@@ -4,12 +4,12 @@
  * Purpose: Defines the Class Ramasseur
  ***********************************************************************/
 
-package DAO;
+package Planning_Match;
 
 import java.util.*;
 
 /** @pdOid f924a2be-7b6c-46d6-a464-b6e41a7a7904 */
-public class Ramasseur extends PersonneDAO {
+public class Ramasseur extends Personne {
    /** @pdOid 65e16123-4467-4fb8-817f-3597a0f90d93 */
    private int idRamasseur;
    /** @pdOid 71ff0921-72da-47c0-8ec8-e85b28143363 */

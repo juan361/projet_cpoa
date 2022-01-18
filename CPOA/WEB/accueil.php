@@ -4,7 +4,7 @@ include_once('header.php');
 include_once('footer.php');
 ?>
 <!DOCTYPE html>
-
+    <body>
         <div class="image1">
             <a href="#">
                 <div>

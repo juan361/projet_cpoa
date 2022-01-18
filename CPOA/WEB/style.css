@@ -272,7 +272,7 @@ ul.menu ul li
 
 #titre2
 {
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 25px;
     font-family: Arial;
@@ -281,7 +281,7 @@ ul.menu ul li
 
 #titre3
 {
-    text-align: left;
+    text-align: center;
     color: rgb(61, 29, 148);
     font-size: 20px;
     font-family: Arial;
@@ -290,38 +290,42 @@ ul.menu ul li
 
 .conteneurBillets 
 {
-    width:72.5%;
-    height:420px;
-    margin: -20px 0px 0px 20px;
+    width:45%;
+    height:470px;
+    margin: -20px 0px 0px 410px;
     justify-content: center;
     border: 1.5px solid white;
 }
 
-.conteneurBillets div
+.conteneurBilletsdiv 
 {
     float:left;
     width:auto;
-    height:80px;
+    height:25%;
     margin-left: 0px;
-    padding: 15px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.conteneurBilletsdiv p
+{
+    margin-top: 0px;
 }
 
 .conteneurTBillets 
 {
-    width: 72.5%;
-    height: 280px;
+    float:left;
     margin: -20px 0px 0px 20px;
     justify-content: center;
-    border: 1px solid rgb(61, 29, 148);
 }
 
 .conteneurTBillets div
 {
     float:left;
     width:auto;
-    height:100%;
+    height:100px;
     margin-left: -10px;
-    margin-top:-20px;
+    margin-top:-10px;
     padding: 15px;
 }
 
@@ -334,7 +338,7 @@ ul.menu ul li
     font-family: Arial;
     display: block;
     justify-content: center;
-    margin: -50px 0px 0px -2.5px;
+    margin: -50px 0px 0px 8.5px;
     padding: 5px;
     text-decoration: none;
 }

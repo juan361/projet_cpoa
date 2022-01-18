@@ -5,10 +5,11 @@
  ***********************************************************************/
 
 
-package Planning_Match;
+package Planning_Matchs.src.Planning_Match;
+
+import Planning_Matchs.src.Planning_Match.Joueur;
 
 import java.sql.Date;
-import java.util.*;
 
 public class Match {
    private int idMatch;
@@ -16,8 +17,8 @@ public class Match {
    private int horaire;
    private int score;
    private int indexGagnant;
-   private JoueurDAO j1;
-   private JoueurDAO j2;
+   private Joueur j1;
+   private Joueur j2;
 
 
 

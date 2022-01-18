@@ -4,7 +4,7 @@
  * Purpose: Defines the Class Joueur
  ***********************************************************************/
 
-package Planning_Match;
+package Planning_Matchs.src.Planning_Match;
 
 /** @pdOid 24ef12c9-be71-44a0-9eb3-04212e281a1a */
 public class Joueur extends Personne {
@@ -19,7 +19,7 @@ public class Joueur extends Personne {
    /** @pdOid 302146cd-e74a-42a7-901d-61cfc841f521 */
    private String nationnalite;
 
-   public JoueurDAO(String nom, String prenom, int classement, String nationalite){
+   public Joueur(String nom, String prenom, int classement, String nationalite){
       this.idJoueur= Math.random() * ( 100 - 50 );
       this.nom = nom;
       this.prenom = prenom;

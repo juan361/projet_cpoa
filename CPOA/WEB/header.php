@@ -8,21 +8,21 @@
 	
 	<body>
 	<div class="remplissage">
-		<a class="entete" href="accueil.html">
+		<a class="entete" href="accueil.php">
 			<p id="titre">Open Parc Auvergne Rhône-Alpes</p>
 			<p id="slogan">LYON</p>
 		</a>	
 	</div>
 	<ul class="menu">
-		<li><a href="billeterie.html">Actualités</a></li>
-		<li><a href="billeterie.html">Billeterie</a>
+		<li><a href="billeterie.php">Actualités</a></li>
+		<li><a href="billeterie.php">Billeterie</a>
 			<ul>
-				<li><a href="billeterie.html">Tournoi</a></li>
-				<li><a href="billeterie.html">Joueurs</a></li>
-				<li><a href="billeterie.html">Promotions</a></li>
+				<li><a href="billeterie.php">Tournoi</a></li>
+				<li><a href="billeterie.php">Joueurs</a></li>
+				<li><a href="billeterie.php">Promotions</a></li>
 			</ul>
 		</li>
-		<li><a href="billeterie.html">Boutique</a></li>
-        <li><a href="billeterie.html">Se connecter</a></li>
+		<li><a href="billeterie.php">Boutique</a></li>
+        <li><a href="billeterie.php">Se connecter</a></li>
 	</ul>
 </html>

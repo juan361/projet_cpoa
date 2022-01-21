@@ -5,7 +5,7 @@ include_once('header.php'); ?>
 <!DOCTYPE html>
     <body>
         <p><br /></p>
-        <p id="titre2">EVENEMENTS</p>
+        <p id="titre2">EN PROMOTION</p>
         <div class="conteneurBillets">
             <div>
                 <div class="conteneurBilletsdiv">

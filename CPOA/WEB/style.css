@@ -215,7 +215,7 @@ ul.menu ul li
 
 #footerText
 {
-    font-size: 18px;
+    font-size: 12.5px;
     text-align: center;
     color:white;
     font-family: Arial;
@@ -223,21 +223,22 @@ ul.menu ul li
 
 .conteneurPartenaires 
 {
-    width:70%;
+    width:60%;
     height:130px;
     margin-top: -20px;
     margin-right: 0px;
-    padding-left:25%;
+    padding-left:35%;
     justify-content: center;
+    margin-bottom: -40px;
 }
 
 .conteneurPartenaires div
 {
     float:left;
     width:auto;
-    height:80px;
-    margin-left:-10px;
-    padding: 25px;
+    height:50px;
+    margin-left:-15px;
+    padding: 20px;
     justify-content: center;
 }
 
@@ -245,18 +246,18 @@ ul.menu ul li
 {
     width:50%;
     height:100px;
-    margin-top: -20px;
-    padding-left:41%;
+    margin-top: -30px;
+    padding-left:44.75%;
     justify-content: center;
-    margin-bottom: -10px;
+    margin-bottom: -30px;
 }
 
 .conteneurSocMedia div
 {
     float:left;
-    width:50px;
-    height:50px;
-    margin-left:-10px;
+    width:30px;
+    height:30px;
+    margin-left:-20px;
     padding: 25px;
     justify-content: center;
 }
@@ -455,6 +456,40 @@ ul.menu ul li
 {
     color: rgb(33, 15, 83);
     opacity:0.85;
+}
+
+/*Page de Connexion*/
+
+.form
+{
+    text-align: center;
+    background-color: rgba(196, 196, 196, 0.719);
+    border:0px;
+    border-radius: 0.5em;
+    justify-content: center;
+    padding:40px 0px 30px 0px;
+    margin:50px 0px 50px 540px;
+    width: 400px;
+    height: auto;
+}
+
+#bar{
+    width: 250px;
+    height: 27.5px;
+    border-radius: 0.25em;
+    border: 0px;
+    margin: 5px;
+}
+
+#submit{
+    background-color: rgb(61, 29, 148);
+    text-align: center;
+    color: white;
+    font-size: 17.5px;
+    padding:7.5px;
+    border-radius: 0.25em;
+    border: 0px;
+    width: 250px;
 }
 
 /***n'appartient pas au site*/

@@ -4,7 +4,6 @@ include_once('header.php'); ?>
 
 <!DOCTYPE html>
     <body>
-        <p><br /></p>
         <p id="titre2">EVENEMENTS</p>
         <div class="conteneurBillets">
             <div>

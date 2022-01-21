@@ -7,5 +7,8 @@ public class Arbitre {
    private String nationalite;
    private String categorie;
    private int idArbitre;
-
+   
+   public Arbitre(String n, String p, String nat, String cat){
+      
+   }
 }

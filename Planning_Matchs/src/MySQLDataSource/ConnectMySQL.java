@@ -3,17 +3,17 @@ import java.sql.*;
 
 public class ConnectMySQL
 {
-  public static void main(String args[])
-  {
+  public Connection getConnection(){
+    Connection conn;
     try
     {
       //étape 1: charger la classe de driver
       Class.forName("com.mysql.jdbc.Driver");
 
       //étape 2: créer l'objet de connexion
-      Connection conn = DriverManager.getConnection(
-      "jdbc:mysql://localhost:3306/Tennis", "root", "");
-
+      conn = DriverManager.getConnection(
+      "jdbc:mysql://localhost:8889/Tennis", "root", "");
+/*
       //étape 3: créer l'objet statement 
       Statement stmt = conn.createStatement();
       ResultSet res = stmt.executeQuery("SELECT * FROM person");
@@ -25,9 +25,12 @@ public class ConnectMySQL
 
       //étape 5: fermez l'objet de connexion
       conn.close();
+      */
     }
     catch(Exception e){ 
+      System.out.println("uga uga uga");
       System.out.println(e);
     }
+    return conn;
   }
 }

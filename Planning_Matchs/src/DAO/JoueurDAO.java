@@ -6,45 +6,25 @@
 
 package DAO;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import Planning_Matchs.src.Planning_Match.Joueur;
+
 /** @pdOid 24ef12c9-be71-44a0-9eb3-04212e281a1a */
-public class Joueur extends PersonneDAO {
-   /** @pdOid f581661b-e4bd-4dcf-a6e3-19b98ad8966f */
-   private static double idJoueur;
-   /** @pdOid e65359cc-22da-4046-a69a-2daf40f1765b */
-   private String nom;
-   /** @pdOid 9aacb16d-5a3f-4bd2-9485-7f337ea33f1a */
-   private String prenom;
-   /** @pdOid a1dcbe62-abab-4d66-a8d2-c64e811246fc */
-   private int atp;
-   /** @pdOid 302146cd-e74a-42a7-901d-61cfc841f521 */
-   private String nationnalite;
-
-   public Joueur(String nom, String prenom, int classement, String nationalite){
-      this.idJoueur= Math.random() * ( 100 - 50 );
-      this.nom = nom;
-      this.prenom = prenom;
-      this.atp = classement;
-      this.nationnalite= nationalite;
+public class JoueurDAO {
+   private Connection connexion;
+   public JoueurDAO(Connection c){
+      this.connexion = c;
    }
-
-   public double getIdJoueur() {
-      return idJoueur;
+   public Joueur getJoueur(int id){
+      String rqt = "SELECT * FROM Joueur where id = ?";
+      PreparedStatement state = connexion.prepareStatement(rqt);
+      state.setInt(1, id);
+      ResultSet result = state.executeQuery();
+      result.next();
+      Joueur j = new Joueur(result.getString("nom"), result.getString("prenom"), result.getInt("atp"), result.getString("nationalite"), result.getInt("id_joueur"));
+      return j;
    }
-
-   public String getNom() {
-      return nom;
-   }
-
-   public String getPrenom() {
-      return prenom;
-   }
-
-   public int getAtp() {
-      return atp;
-   }
-
-   public String getNationnalite() {
-      return nationnalite;
-   }
-
 }

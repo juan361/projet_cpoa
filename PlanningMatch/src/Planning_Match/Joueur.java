@@ -4,7 +4,7 @@
  * Purpose: Defines the Class Joueur
  ***********************************************************************/
 
-package Planning_Matchs.src.Planning_Match;
+package Planning_Match;
 
 /** @pdOid 24ef12c9-be71-44a0-9eb3-04212e281a1a */
 public class Joueur{

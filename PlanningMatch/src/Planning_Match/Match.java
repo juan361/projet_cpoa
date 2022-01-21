@@ -5,9 +5,7 @@
  ***********************************************************************/
 
 
-package Planning_Matchs.src.Planning_Match;
-
-import Planning_Matchs.src.Planning_Match.Joueur;
+package Planning_Match;
 
 import java.sql.Date;
 
@@ -19,7 +17,17 @@ public class Match {
    private int idGagnant;
    private Joueur j1;
    private Joueur j2;
+   private Arbitre arbitre;
 
+   public Match(int id, Date d, int horaire, int score, int idg, Joueur j1, Joueur j2, Arbitre a){
+      this.idMatch = id;
+      this.horaire = horaire;
+      this.date = d;
+      this.score = score;
+      this.j1 = j1;
+      this.j2 = j2;
+      this.arbitre = a;
+   }
 
    public int getIdMatch() {
       return idMatch;

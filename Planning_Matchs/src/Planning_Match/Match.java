@@ -16,15 +16,37 @@ public class Match {
    private Date date;
    private int horaire;
    private int score;
-   private int indexGagnant;
+   private int idGagnant;
    private Joueur j1;
    private Joueur j2;
 
 
+   public int getIdMatch() {
+      return idMatch;
+   }
 
-   public int setScore(int score) {
-      System.out.printf("donnez le score de"+ getprenom(j1) +"" );
-      return 0;
+   public Date getDate() {
+      return date;
+   }
+
+   public int getHoraire() {
+      return horaire;
+   }
+
+   public int getScore() {
+      return score;
+   }
+
+   public int getIdGagnant() {
+      return idGagnant;
+   }
+
+   public Joueur getJ1() {
+      return j1;
+   }
+
+   public Joueur getJ2() {
+      return j2;
    }
 
    public int deplacer() {

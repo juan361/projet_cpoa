@@ -1,11 +1,13 @@
+package Planning_Match;
+import java.sql.Connection;
 import java.sql.SQLException;
 
 import DAO.JoueurDAO;
 import MySQLDataSource.ConnectMySQL;
-import Planning_Matchs.src.Planning_Match.Joueur;
+
 
 public class main{
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
      System.out.println("coucou");
         ConnectMySQL BDD = new ConnectMySQL();
         Connection connexion = BDD.getConnection();

@@ -5,15 +5,15 @@ public class ConnectMySQL
 {
   public Connection getConnection(){
     Connection conn = null;
-    try
-    {
+    try {
       //étape 1: charger la classe de driver
       Class.forName("com.mysql.jdbc.Driver");
 
       //étape 2: créer l'objet de connexion
       conn = DriverManager.getConnection(
       "jdbc:mysql://localhost:8889/Tennis", "root", "");
-/*
+      System.out.println("ohayo");
+      /*
       //étape 3: créer l'objet statement 
       Statement stmt = conn.createStatement();
       ResultSet res = stmt.executeQuery("SELECT * FROM person");
@@ -30,6 +30,7 @@ public class ConnectMySQL
     catch(Exception e){ 
       System.out.println("uga uga uga");
       System.out.println(e);
+      conn=null;
     }
     return conn;
   }

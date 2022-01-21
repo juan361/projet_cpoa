@@ -1,4 +1,4 @@
-package Planning_Matchs.src.Planning_Match;
+package Planning_Match;
 
 public class Tournoi {
 }

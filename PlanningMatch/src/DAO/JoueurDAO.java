@@ -6,14 +6,12 @@
 
 package DAO;
 
+import Planning_Match.Joueur;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import Planning_Matchs.src.Planning_Match.Joueur;
-
-/** @pdOid 24ef12c9-be71-44a0-9eb3-04212e281a1a */
 public class JoueurDAO {
    private Connection connexion;
    public JoueurDAO(Connection c){

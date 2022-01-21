@@ -9,6 +9,7 @@ package DAO;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import Planning_Matchs.src.Planning_Match.Joueur;
 
@@ -18,7 +19,7 @@ public class JoueurDAO {
    public JoueurDAO(Connection c){
       this.connexion = c;
    }
-   public Joueur getJoueur(int id){
+   public Joueur getJoueur(int id) throws SQLException {
       String rqt = "SELECT * FROM Joueur where id = ?";
       PreparedStatement state = connexion.prepareStatement(rqt);
       state.setInt(1, id);

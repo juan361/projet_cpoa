@@ -1,8 +1,7 @@
 <?php
 session_start();
-include_once('header.php');
-include_once('footer.php');
-?>
+include_once('header.php'); ?>
+
 <!DOCTYPE html>
     <body>
         <p><br /></p>
@@ -179,3 +178,6 @@ include_once('footer.php');
         </div>
     </body>
 </html>
+
+<?php
+include_once('footer.php');?>

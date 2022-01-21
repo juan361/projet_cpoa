@@ -343,6 +343,68 @@ ul.menu ul li
     text-decoration: none;
 }
 
+#titre2m
+{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: Arial;
+    margin:-20px 0px 30px 20px;
+}
+
+.conteneurMatchs 
+{
+    width:45%;
+    height:870px;
+    margin: -20px 0px 20px 400px;
+    justify-content: center;
+    border: 1.5px solid white;
+}
+
+#titre3m
+{
+    text-align: center;
+    color: rgb(61, 29, 148);
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 10px;
+    margin-left: 0px; 
+}
+
+.conteneurMatchsdiv 
+{
+    float:left;
+    width:auto;
+    height:50%;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.conteneurMatchsdiv p
+{
+    margin-top: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.conteneurMatchsdiv div
+{
+    background-color: white;
+    width:655px;
+    margin-top: -10px;
+    margin-left: 10px;
+    border: 1.5px solid white;
+}
+
+.conteneurMatchsdiv div p
+{
+    padding-top:15px;
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(61, 29, 148);
+}
+
 /***n'appartient pas au site*/
 
 /*Page épicerie des pays*/

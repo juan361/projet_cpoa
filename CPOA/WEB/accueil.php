@@ -1,7 +1,6 @@
 <?php
 session_start();
 include_once('header.php');
-include_once('footer.php');
 ?>
 <!DOCTYPE html>
     <body>
@@ -42,3 +41,5 @@ include_once('footer.php');
 	</body>
 	
 </html>
+<?php
+include_once('footer.php');?>

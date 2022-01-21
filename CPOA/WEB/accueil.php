@@ -17,7 +17,7 @@ include_once('header.php');
         </div>
         <div class="conteneurPages">
             <div class="conteneurPagesdiv">
-                <a href="matchs.html">
+                <a href="matchs.php">
                     <img src="img.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>PROGRAMME</p>

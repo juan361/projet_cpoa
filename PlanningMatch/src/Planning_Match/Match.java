@@ -26,8 +26,8 @@ public class Match {
       this.score = score;
       this.j1 = j1;
       this.j2 = j2;
-      this.arbitre = a;
-   }
+
+      }
 
    public int getIdMatch() {
       return idMatch;
@@ -57,14 +57,7 @@ public class Match {
       return j2;
    }
 
-   public int deplacer() {
-      // TODO: implement
-      return 0;
+   public Arbitre getArbitre() {
+      return arbitre;
    }
-
-   public int modifier() {
-      // TODO: implement
-      return 0;
-   }
-
 }

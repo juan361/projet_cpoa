@@ -8,7 +8,7 @@ include_once('header.php');
             <a href="#">
                 <div>
                     <img src="terrain.jpg" style="width:70%; height:70%;" alt="image d'accueil" />
-                    <p class="hlink"> <font-size: 100px>Actualités : </font-size:><br/></p>
+                    <p class="hlink"> </font-size: 100px>Actualités : </font-size:><br/></p>
                     <p class="parag"> L'Open Parc va de nouveaux ouvrir ses portes !<br/>
                     Découvrez les mesures sanitaires en vigueur à respecter sur place.
                     </p>>

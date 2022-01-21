@@ -1,22 +1,21 @@
 <?php
 session_start();
 include_once('header.php');
-include_once('footer.php');
 ?>
 <!DOCTYPE html>
     <body>
         <div class="conteneurTypeBillets">
             <div class="conteneurTypeBilletsdiv">
                 <a href="billeterie.php">
-                    <img src="OP1.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                    <img src="OP1.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>Billets Grands Publics</p>
                     </div>
                 </a>
             </div>
             <div class="conteneurTypeBilletsdiv">
-                <a href="billeterie.php">
-                    <img src="OP2.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                <a href="connexion.php">
+                    <img src="OP2.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>Billets Licenciés</p>
                     </div>
@@ -24,7 +23,7 @@ include_once('footer.php');
             </div>
             <div class="conteneurTypeBilletsdiv">
                 <a href="billeterie.php">
-                    <img src="OP3.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                    <img src="OP3.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>Billets de Solidarité</p>
                     </div>
@@ -32,7 +31,7 @@ include_once('footer.php');
             </div>    
             <div class="conteneurTypeBilletsdiv">
                 <a href="billeterie.php">
-                    <img src="OP4.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                    <img src="OP4.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>Billets "The Big Match"</p>
                     </div>
@@ -40,3 +39,6 @@ include_once('footer.php');
             </div>            
         </div>
 </body>
+<?php
+include_once('footer.php');
+?>

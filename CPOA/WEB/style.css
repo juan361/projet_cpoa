@@ -412,7 +412,7 @@ ul.menu ul li
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 50px;
-    padding-left:16%;
+    padding-left:18%;
     display: block;
     height:580px;
     background-color: rgb(33, 15, 83);
@@ -426,24 +426,35 @@ ul.menu ul li
     text-align:center;
     text-decoration: none;
     margin-left:20px;
-    padding: 15px;
+    padding: 5px;
     justify-content: center;
-    border: 1.5px solid rgba(255, 255, 255, 0.884);
+    border: 1.5px solid rgba(196, 196, 196,0.7);
+    border-radius: 1em;
 }
 
 .conteneurTypeBilletsdiv div
 {
     background-color: rgb(255, 114, 20, 0.7);
     position: absolute;
-    color: white;
-    font-weight: bold;
-    font-size: 16.5px;
-    font-family: Arial;
     display: block;
     justify-content: center;
     margin-top: -80px;
     width:200px;
     height:50px;
+}
+
+.conteneurTypeBilletsdiv a
+{
+    color: white;
+    font-size: 17.5px;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+.conteneurTypeBilletsdiv a:hover
+{
+    color: rgb(33, 15, 83);
+    opacity:0.85;
 }
 
 /***n'appartient pas au site*/

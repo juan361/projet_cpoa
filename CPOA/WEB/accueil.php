@@ -17,7 +17,7 @@ include_once('header.php');
         </div>
         <div class="conteneurPages">
             <div class="conteneurPagesdiv">
-                <a href="#">
+                <a href="matchs.html">
                     <img src="img.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>PROGRAMME</p>
@@ -25,7 +25,7 @@ include_once('header.php');
                 </a>
             </div>
             <div class="conteneurPagesdiv">
-                <a href="#">
+                <a href="joueurs.html">
                     <img src="img2.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>JOUEURS</p>
@@ -33,7 +33,7 @@ include_once('header.php');
                 </a>
             </div>
             <div class="conteneurPagesdiv">
-                <a href="#">
+                <a href="#"><!--Mettre une page ici-->
                     <img src="img1.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>OFFRES VIP</p>

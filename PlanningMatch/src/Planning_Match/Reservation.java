@@ -6,7 +6,7 @@
 
 package Planning_Match;
 
-import java.sql.Date;
+
 import java.sql.Timestamp;
 import java.util.*;
 
@@ -19,5 +19,5 @@ public class Reservation {
       this.numReservation = numReservation;
       this.dateReservation = dateReservation;
    }
-   
+
 }

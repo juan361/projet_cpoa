@@ -34,4 +34,5 @@ public class Arbitre {
    public String getCategorie() {
       return categorie;
    }
+
 }

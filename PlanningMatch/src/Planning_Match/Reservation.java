@@ -7,12 +7,17 @@
 package Planning_Match;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 import java.util.*;
 
 
 public class Reservation {
-   private Date date;
-   private int heureDebut;
-   private int heureFin;
+   private int numReservation;
+   private Timestamp dateReservation;
 
+   public Reservation(int numReservation, Timestamp dateReservation) {
+      this.numReservation = numReservation;
+      this.dateReservation = dateReservation;
+   }
+   
 }

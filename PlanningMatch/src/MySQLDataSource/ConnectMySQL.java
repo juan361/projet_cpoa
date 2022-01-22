@@ -27,10 +27,12 @@ public class ConnectMySQL
       conn.close();
       */
     }
-    catch(Exception e){ 
-      System.out.println("uga uga uga");
-      System.out.println(e);
-      conn=null;
+    catch (ClassNotFoundException e) {
+      System.out.println("Driver not found" );
+    }
+  catch (SQLException e) {
+      e.printStackTrace();
+    return conn;
     }
     return conn;
   }

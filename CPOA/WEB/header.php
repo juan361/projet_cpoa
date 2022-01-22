@@ -14,15 +14,15 @@
 			</a>	
 		</div>
 		<ul class="menu">
-			<li><a href="billeterie.php">Actualités</a></li>
-			<li><a href="billeterie.php">Billeterie</a>
+			<li><a href="typeBilleterie.php">Actualités</a></li>
+			<li><a href="typeBilleterie.php">Billeterie</a>
 				<ul>
-					<li><a href="matchs.html">Tournoi</a></li>
-					<li><a href="joueurs.html">Joueurs</a></li>
-					<li><a href="billeterie.php">Promotions</a></li>
+					<li><a href="matchs.php">Tournoi</a></li>
+					<li><a href="joueurs.php">Joueurs</a></li>
+					<li><a href="billeteriePromo.php">Promotions</a></li>
 				</ul>
 			</li>
-			<li><a href="billeterie.php">Boutique</a></li>
+			<li><a href="typeBilleterie.php">Boutique</a></li>
 			<li><a href="connexion.php">Se connecter</a></li>
 		</ul>
 	</body>

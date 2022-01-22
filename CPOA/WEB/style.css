@@ -554,6 +554,40 @@ ul.menu ul li
     color: white;
 }
 
+/*Page Redirection*/
+
+#loadingPay 
+{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    border:2px solid rgb(33, 15, 83);
+}
+
+.waviy 
+{
+    position: relative;
+}
+    
+.waviy span 
+{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip 
+{
+    0%,80% 
+    {
+      transform: rotateY(360deg) 
+    }
+}
+
 /***n'appartient pas au site*/
 
 /*Page épicerie des pays*/

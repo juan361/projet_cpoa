@@ -6,15 +6,12 @@
             <label><b id="titre3m">N° de Licencié<br/></b></label>
             <input id="bar" type="text" placeholder="Entrer le n° de licencié" name="username" required>
             <br/><br/>
-            <input type="submit" id='submit' value='SE CONNECTER' >
+            <input type="submit" id='submit' value='VALIDER' >
             <?php
             if(isset($_GET['erreur'])){
                 $err = $_GET['erreur'];
                 if($err==1 || $err==2)
                     echo "<p style='color:red'>Ce numéro n'existe pas</p>";
-            }
-            else {
-                echo "<meta http-equiv='refresh' content='0; url=billeterie.php'>";
             }
             ?>
         </form>

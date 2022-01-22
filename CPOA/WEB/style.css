@@ -357,11 +357,33 @@ ul.menu ul li
     font-size: 15px;
     font-family: Arial;
     display: block;
-    justify-content: center;
     margin: -50px 0px 0px 8.5px;
     padding: 5px;
     text-decoration: none;
 }
+
+.text-base
+{
+   opacity:1;
+}
+
+.text-hover
+{
+   display:none;
+}
+ 
+.button:hover span.text-base
+{
+   opacity:0;
+}
+
+.button:hover span.text-hover
+{
+   display:inherit;
+   position:absolute;
+}
+
+/*Planning Matchs*/
 
 #titre2m
 {
@@ -561,7 +583,6 @@ ul.menu ul li
     display: flex;
     justify-content: center;
     height: 450px;
-    border:2px solid rgb(33, 15, 83);
 }
 
 .waviy 

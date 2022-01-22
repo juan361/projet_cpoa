@@ -12,23 +12,38 @@ include_once('header.php'); ?>
                     <div class="conteneurTBillets">
                         <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">16 mai 2022</a>
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">16 mai 2022</span>
+                            </a>
                         </div>
                         <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">17 mai 2022</a>
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">17 mai 2022</span>
+                            </a>
                         </div>
                         <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">18 mai 2022</a>
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">18 mai 2022</span>
+                            </a>
                         </div>
                         <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">19 mai 2022</a>
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">19 mai 2022</span>
+                            </a>
                         </div>
                         <div>
-                            <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">20 mai 2022</a>
+                            <img src="square.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">20 mai 2022</span>
+                            </a>
                         </div>                    
                     </div>
                 </div>
@@ -38,26 +53,41 @@ include_once('header.php'); ?>
                 <div class="conteneurBilletsdiv">
                     <p id="titre3">BILLETERIE GROUPES (15/05/22 au 21/05/22)</p>
                     <div class="conteneurTBillets">
-                        <div>
-                            <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">16 mai 2022</a>
+                    <div>
+                            <img src="square.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">16 mai 2022</span>
+                            </a>
                         </div>
                         <div>
-                            <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">17 mai 2022</a>
+                            <img src="square.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">17 mai 2022</span>
+                            </a>
                         </div>
                         <div>
-                            <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">18 mai 2022</a>
+                            <img src="square.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">18 mai 2022</span>
+                            </a>
                         </div>
                         <div>
-                            <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">19 mai 2022</a>
+                            <img src="square.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">19 mai 2022</span>
+                            </a>
                         </div>
                         <div>
-                            <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">20 mai 2022</a>
-                        </div>                    
+                            <img src="square.jpg" style="width:100%; height:100%;" alt="image d'accueil" />
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">20 mai 2022</span>
+                            </a>
+                        </div>                                   
                     </div>
                 </div>
             </div>
@@ -65,26 +95,41 @@ include_once('header.php'); ?>
                 <div class="conteneurBilletsdiv">
                     <p id="titre3">BILLETERIE LOGES (15/05/22 au 21/05/22)</p>
                     <div class="conteneurTBillets">
-                        <div>
+                    <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">16 mai 2022</a>
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">16 mai 2022</span>
+                            </a>
                         </div>
                         <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">17 mai 2022</a>
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">17 mai 2022</span>
+                            </a>
                         </div>
                         <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">18 mai 2022</a>
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">18 mai 2022</span>
+                            </a>
                         </div>
                         <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">19 mai 2022</a>
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">19 mai 2022</span>
+                            </a>
                         </div>
                         <div>
                             <img src="square.jpg" style="width:100%; height:100%; " alt="image d'accueil" />
-                            <a href="">20 mai 2022</a>
-                        </div>                    
+                            <a href="redirection.php" class="button">
+                            <span class="text-hover" style="margin-left: 15px; font-weight:bolder;">Acheter</span>
+                            <span class="text-base">20 mai 2022</span>
+                            </a>
+                        </div>                               
                     </div>
                 </div>
             </div>
@@ -93,5 +138,4 @@ include_once('header.php'); ?>
 </html>
 
 <?php
-include_once('footer.php');
-?>
+include_once('footer.php');?>

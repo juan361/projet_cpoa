@@ -13,6 +13,9 @@
                 if($err==1 || $err==2)
                     echo "<p style='color:red'>Ce numéro n'existe pas</p>";
             }
+            else {
+                echo "<meta http-equiv='refresh' content='0; url=billeterie.php'>";
+            }
             ?>
         </form>
     </div>

@@ -14,6 +14,9 @@
                 if($err==1 || $err==2)
                     echo "<p style='color:red'>Ce code n'existe pas ou n'existe plus</p>";
             }
+            else {
+                echo "<meta http-equiv='refresh' content='0; url=billeteriePromo.php'>";
+            }
             ?>
         </form>
     </div>

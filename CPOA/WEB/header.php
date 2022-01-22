@@ -19,7 +19,7 @@
 				<ul>
 					<li><a href="matchs.php">Tournoi</a></li>
 					<li><a href="joueurs.php">Joueurs</a></li>
-					<li><a href="billeteriePromo.php">Promotions</a></li>
+					<li><a href="verifPromo.php">Promotions</a></li>
 				</ul>
 			</li>
 			<li><a href="typeBilleterie.php">Boutique</a></li>

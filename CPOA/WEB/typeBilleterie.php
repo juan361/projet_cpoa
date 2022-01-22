@@ -14,7 +14,7 @@ include_once('header.php');
                 </a>
             </div>
             <div class="conteneurTypeBilletsdiv">
-                <a href="connexion.php">
+                <a href="verifLicenciés.php">
                     <img src="OP2.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>Billets Licenciés</p>
@@ -22,7 +22,7 @@ include_once('header.php');
                 </a>
             </div>
             <div class="conteneurTypeBilletsdiv">
-                <a href="billeterie.php">
+                <a href="verifPromo.php">
                     <img src="OP3.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>Billets de Solidarité</p>

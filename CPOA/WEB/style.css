@@ -400,7 +400,8 @@ ul.menu ul li
     height:870px;
     margin: -20px 0px 20px 400px;
     justify-content: center;
-    border: 1.5px solid white;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-radius: 0.1em;
 }
 
 #titre3m
@@ -432,11 +433,12 @@ ul.menu ul li
 
 .conteneurMatchsdiv div
 {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     width:655px;
     margin-top: -10px;
     margin-left: 10px;
-    border: 1.5px solid white;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-radius: 0.1em;
 }
 
 .conteneurMatchsdiv div p

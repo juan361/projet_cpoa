@@ -18,7 +18,7 @@
 			<li><a href="typeBilleterie.php">Billeterie</a>
 				<ul>
 					<li><a href="matchs.php">Tournoi</a></li>
-					<li><a href="joueurs.html">Joueurs</a></li>
+					<li><a href="joueurs.php">Joueurs</a></li>
 					<li><a href="billeteriePromo.php">Promotions</a></li>
 				</ul>
 			</li>

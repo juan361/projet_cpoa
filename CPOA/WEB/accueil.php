@@ -25,7 +25,7 @@ include_once('header.php');
                 </a>
             </div>
             <div class="conteneurPagesdiv">
-                <a href="joueurs.html">
+                <a href="joueurs.php">
                     <img src="img2.jpg" style="width:100%; height:100%; border-radius: 0.5em;" alt="image d'accueil" />
                     <div>
                         <p>JOUEURS</p>

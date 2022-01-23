@@ -33,9 +33,9 @@ class LicencieManager{
         $licencies = $this->getLicencies();
         foreach($licencies as $licencie){
             if ($num == $licencie->getNumLicencie()){
-                return 'Licence valide';
+                return true;
             }
         }
-        return 'Licence invalide';
+        return false;
     }
 }

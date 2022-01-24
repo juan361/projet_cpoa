@@ -1,6 +1,7 @@
 
 package Vue;
 
+
 public class Planning extends javax.swing.JFrame {
 
     public Planning() {

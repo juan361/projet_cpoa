@@ -19,7 +19,7 @@ public class Login implements ActionListener {
     private static JButton valid;
     private static JLabel wrong;
             
-    public static void main(String[] args){
+    public Login(){
         //création de la fenêtre login
         panel = new JPanel();
         frame = new JFrame();

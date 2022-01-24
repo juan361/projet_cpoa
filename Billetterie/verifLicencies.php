@@ -14,7 +14,7 @@ include('./models/LicencieManager.php');?>
             $licencie = new Licencie($_POST['licence']);
             if(isset($_POST['submit'])){
                 if($manager->checkLicense($licencie)){
-                    header('Location: billetterie.php');
+                    header('Location: billetterieLicencies.php');
                 }
                 else{
                     echo "<p style='color:red'>Ce numéro n'existe pas</p>";

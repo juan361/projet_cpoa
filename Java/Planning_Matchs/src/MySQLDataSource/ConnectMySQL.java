@@ -1,4 +1,30 @@
 package MySQLDataSource;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+public class ConnectMySQL{
+  public Connection connectDB() {
+    try
+    {
+      Class.forName("com.mysql.jdbc.Driver");
+      Connection con=DriverManager.getConnection(
+              "jdbc:mysql://localhost:8889/Tennis","root","root");
+      Statement stmt=con.createStatement();
+      ResultSet rs=stmt.executeQuery("show databases;");
+      System.out.println("Connected");
+      return con;
+    }
+    catch(Exception e)
+    {
+      System.out.println(e);
+    }
+    return null;
+  }
+}
+
+
+/* package MySQLDataSource;
 import java.sql.*;
 
 public class ConnectMySQL
@@ -26,6 +52,7 @@ public class ConnectMySQL
       //étape 5: fermez l'objet de connexion
       conn.close();
       */
+/*
     }
     catch (ClassNotFoundException e) {
       System.out.println("Driver not found" );
@@ -36,4 +63,4 @@ public class ConnectMySQL
     }
     return conn;
   }
-}
+}*/

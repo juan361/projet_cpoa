@@ -11,10 +11,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class JoueurDAO {
+
    private final Connection connexion;
+
    public JoueurDAO(Connection c){
       this.connexion = c;
    }
@@ -29,8 +30,8 @@ public class JoueurDAO {
       return j;
    }
 
-   public List<Joueur> getListJoueurs() throws SQLException {
-      List<Joueur> joueursList = null;
+   public ArrayList<Joueur> getListJoueurs() throws SQLException {
+      ArrayList<Joueur> joueursList = new ArrayList<>();
       String rqt = "SELECT * FROM Joueur";
       PreparedStatement state = connexion.prepareStatement(rqt);
       ResultSet result = state.executeQuery();

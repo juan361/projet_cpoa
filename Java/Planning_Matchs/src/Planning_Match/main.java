@@ -13,7 +13,7 @@ public class main{
         Joueur j1;
         JoueurDAO joueurManager = new JoueurDAO(connexion);
         j1 = joueurManager.getJoueur(1);
-        System.out.println(j1.getPrenom() + " " + j1.getPrenom() + "\n");
+        System.out.println(j1.getPrenom() + " " + j1.getNom() + "\n");
         
     }
 }

@@ -17,7 +17,7 @@ public class JoueurDAO {
       this.connexion = c;
    }
    public Joueur getJoueur(int id) throws SQLException {
-      String rqt = "SELECT * FROM Joueur where id = ?";
+      String rqt = "SELECT * FROM Joueur where id_joueur = ?";
       PreparedStatement state = connexion.prepareStatement(rqt);
       state.setInt(1, id);
       ResultSet result = state.executeQuery();

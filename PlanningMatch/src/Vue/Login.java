@@ -10,7 +10,8 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 public class Login implements ActionListener {
-
+    private static JPanel panel;
+    private static JFrame frame;
     private static JLabel userlabel;
     private static JTextField userText;
     private static JLabel pwdLabel;
@@ -20,8 +21,8 @@ public class Login implements ActionListener {
             
     public static void main(String[] args){
         //création de la fenêtre login
-        JPanel panel = new JPanel();
-        JFrame frame = new JFrame();
+        panel = new JPanel();
+        frame = new JFrame();
         frame.setSize(350, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
@@ -63,10 +64,11 @@ public class Login implements ActionListener {
     String user = userText.getText();
     String pwd = pwdText.getText();
     System.out.println(user +", " + pwd);
+    
     if(user.equals("admin") && pwd.equals("1234")){
         wrong.setText("connexion...");
-        
         Accueil accueil = new Accueil();
+        panel.setVisible(false);
         accueil.setVisible(true);
     }
     }

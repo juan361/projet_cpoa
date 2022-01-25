@@ -49,6 +49,7 @@ public class Planninggene extends JFrame{
     private JButton j1p8btn;
     private JLabel j2p8Label;
     private JButton j2p8btn;
+    private Joueur joueur;
 
     public Planninggene() {
         setContentPane(mainFrame);
@@ -60,8 +61,12 @@ public class Planninggene extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j1p1Label.setText();
+
+                joueur = pformulaire.getjFormulaire();
+                System.out.printf(joueur.getNom());
+                j1p1Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
+
+
             }
         });
         j2p1btn.addActionListener(new ActionListener() {

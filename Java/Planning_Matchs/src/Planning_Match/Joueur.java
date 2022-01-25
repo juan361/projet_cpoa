@@ -6,16 +6,17 @@
 
 package Planning_Match;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 public class Joueur{
    private static int idJoueur;
-   private String nom;
-   private String prenom;
-   private int atp;
-   private String nationnalite;
-
+   private final String nom;
+   private final String prenom;
+   private final int atp;
+   private final String nationnalite;
    public Joueur(String nom, String prenom, int classement, String nationalite, int id){
-      this.idJoueur= id;
+      idJoueur= id;
       this.nom = nom;
       this.prenom = prenom;
       this.atp = classement;
@@ -27,10 +28,12 @@ public class Joueur{
       this.prenom = prenom;
       this.atp = classement;
       this.nationnalite = nationalite;
+
       Random shu = new Random();
-      int r = shu.nextInt(50);
-      this.idJoueur = r;
+      idJoueur = shu.nextInt(50);
+
    }
+
 
    public int getIdJoueur() { return idJoueur;}
 

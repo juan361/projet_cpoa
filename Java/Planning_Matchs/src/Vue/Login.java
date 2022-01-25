@@ -18,7 +18,7 @@ public class Login implements ActionListener {
     private static JPasswordField pwdText;
     private static JButton valid;
     private static JLabel wrong;
-            
+
     public static void main(String[] args){
         //création de la fenêtre login
         panel = new JPanel();
@@ -67,9 +67,8 @@ public class Login implements ActionListener {
     
     if(user.equals("admin") && pwd.equals("1234")){
         wrong.setText("connexion...");
-        Accueil accueil = new Accueil();
+        AccueilP accueil = new AccueilP();
         panel.setVisible(false);
-        accueil.setVisible(true);
     }
     }
 }

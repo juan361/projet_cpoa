@@ -6,23 +6,36 @@
 
 package Planning_Match;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Random;
 public class Joueur{
    private static int idJoueur;
-   private String nom;
-   private String prenom;
-   private int atp;
-   private String nationnalite;
-
+   private final String nom;
+   private final String prenom;
+   private final int atp;
+   private final String nationnalite;
    public Joueur(String nom, String prenom, int classement, String nationalite, int id){
-      this.idJoueur= id;
+      idJoueur= id;
       this.nom = nom;
       this.prenom = prenom;
       this.atp = classement;
       this.nationnalite= nationalite;
    }
-   public int getIdJoueur() {
-      return idJoueur;
+
+   public Joueur(String nom, String prenom,int classement, String nationalite){
+      this.nom = nom;
+      this.prenom = prenom;
+      this.atp = classement;
+      this.nationnalite = nationalite;
+
+      Random shu = new Random();
+      idJoueur = shu.nextInt(50);
+
    }
+
+
+   public int getIdJoueur() { return idJoueur;}
 
    public String getNom() {
       return nom;

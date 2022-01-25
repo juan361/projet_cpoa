@@ -67,9 +67,8 @@ public class Login implements ActionListener {
     
     if(user.equals("admin") && pwd.equals("1234")){
         wrong.setText("connexion...");
-        Accueil accueil = new Accueil();
+        AccueilP accueil = new AccueilP();
         panel.setVisible(false);
-        accueil.setVisible(true);
     }
     }
 }

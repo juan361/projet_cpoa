@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vue.Planninggene">
+  <grid id="27dc6" binding="mainFrame" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="32" width="687" height="760"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="72289" binding="match3P" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="254" height="144"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="47a54" class="javax.swing.JLabel" binding="j1p3Label">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 1"/>
+            </properties>
+          </component>
+          <component id="8409b" class="javax.swing.JButton" binding="j1m3btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=" Informations"/>
+            </properties>
+          </component>
+          <component id="88c4a" class="javax.swing.JLabel" binding="j2p3Label">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 2"/>
+            </properties>
+          </component>
+          <component id="884fc" class="javax.swing.JButton" binding="j2p3btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Informations"/>
+            </properties>
+          </component>
+          <component id="21105" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Match 3"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="28c39" binding="match2P" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="55bd2" class="javax.swing.JLabel" binding="j1p2Label">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 1"/>
+            </properties>
+          </component>
+          <component id="9ae25" class="javax.swing.JButton" binding="j1p2btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="115" height="31"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=" Informations"/>
+            </properties>
+          </component>
+          <component id="9fdc0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Match 2"/>
+            </properties>
+          </component>
+          <component id="6f020" class="javax.swing.JLabel" binding="j2p2Label">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 2"/>
+            </properties>
+          </component>
+          <component id="1f338" class="javax.swing.JButton" binding="j2p2btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Informations"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1e3d5" binding="match4P" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6982564"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f0a9d" class="javax.swing.JLabel" binding="j1p4Label">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 1"/>
+            </properties>
+          </component>
+          <component id="7c30b" class="javax.swing.JButton" binding="j1p4btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6982564"/>
+              <text value=" Informations"/>
+            </properties>
+          </component>
+          <component id="566a0" class="javax.swing.JLabel" binding="j2p4Label">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 2"/>
+            </properties>
+          </component>
+          <component id="6aa3d" class="javax.swing.JButton" binding="j2p4btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6982564"/>
+              <text value="Informations"/>
+            </properties>
+          </component>
+          <component id="b3c4c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Match 4"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4f9ea" binding="match5P" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="254" height="144"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6982564"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="48e67" class="javax.swing.JLabel" binding="j1p5Label">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 1"/>
+            </properties>
+          </component>
+          <component id="aaa72" class="javax.swing.JButton" binding="j1p5btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6982564"/>
+              <text value=" Informations"/>
+            </properties>
+          </component>
+          <component id="e2d3f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Match 5"/>
+            </properties>
+          </component>
+          <component id="44d0f" class="javax.swing.JLabel" binding="j2p5Label">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 2"/>
+            </properties>
+          </component>
+          <component id="45499" class="javax.swing.JButton" binding="j2p5btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6982564"/>
+              <text value="Informations"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2d7db" binding="match6P" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7b080" class="javax.swing.JLabel" binding="j1p6Label">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 1"/>
+            </properties>
+          </component>
+          <component id="9f885" class="javax.swing.JButton" binding="j1p6btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=" Informations"/>
+            </properties>
+          </component>
+          <component id="f1bc5" class="javax.swing.JLabel" binding="j2p6Label">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 2"/>
+            </properties>
+          </component>
+          <component id="55211" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Match 6"/>
+            </properties>
+          </component>
+          <component id="fa174" class="javax.swing.JButton" binding="j2p6btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Informations"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e2444" binding="match1P" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="254" height="144"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6982564"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fb4e8" class="javax.swing.JLabel" binding="j1p1Label">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="268" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Joueur 1"/>
+            </properties>
+          </component>
+          <component id="84774" class="javax.swing.JButton" binding="j1p1btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="268" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6982564"/>
+              <text value=" Informations"/>
+            </properties>
+          </component>
+          <component id="9a32b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="268" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Match 1"/>
+            </properties>
+          </component>
+          <component id="ff5f6" class="javax.swing.JLabel" binding="j2p1Label">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="268" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Joueur 2"/>
+            </properties>
+          </component>
+          <component id="7b30f" class="javax.swing.JButton" binding="j2p1btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="268" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6982564"/>
+              <text value="Informations"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="de8ed" binding="match7P" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="254" height="144"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f672c" class="javax.swing.JLabel" binding="j1p7Label">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 1"/>
+            </properties>
+          </component>
+          <component id="3309b" class="javax.swing.JButton" binding="j1p7btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=" Informations"/>
+            </properties>
+          </component>
+          <component id="19930" class="javax.swing.JLabel" binding="j2p7Label">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 2"/>
+            </properties>
+          </component>
+          <component id="bbc75" class="javax.swing.JButton" binding="j2p7btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Informations"/>
+            </properties>
+          </component>
+          <component id="8a516" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Match 7"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c2e8b" binding="match8P" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6982564"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3a305" class="javax.swing.JLabel" binding="j1p8Label">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 1"/>
+            </properties>
+          </component>
+          <component id="b8494" class="javax.swing.JButton" binding="j1p8btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6982564"/>
+              <text value=" Informations"/>
+            </properties>
+          </component>
+          <component id="e8c34" class="javax.swing.JLabel" binding="j2p8Label">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Joueur 2"/>
+            </properties>
+          </component>
+          <component id="6972d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Match 8"/>
+            </properties>
+          </component>
+          <component id="37219" class="javax.swing.JButton" binding="j2p8btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6982564"/>
+              <text value="Informations"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

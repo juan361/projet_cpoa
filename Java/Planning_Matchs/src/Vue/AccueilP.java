@@ -20,8 +20,7 @@ public class AccueilP extends JFrame {
         Planning.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                Planninggene planning= new Planninggene(pformulaire);
+                Planninggene planning= new Planninggene();
 
             }
         });

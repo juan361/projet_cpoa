@@ -52,8 +52,12 @@ public class Planninggene extends JFrame{
     private Joueur joueur;
     private Pformulaire formulaire;
 
-    public Planninggene(Pformulaire formulaire) {
-        this.formulaire = formulaire;
+    public Planninggene() {
+        this.formulaire = new Pformulaire(Planninggene.this);
+        createPanel();
+    }
+
+    private void createPanel(){
         setContentPane(mainFrame);
         setSize(600, 600);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -72,127 +76,134 @@ public class Planninggene extends JFrame{
         j2p1btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j2p1Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j2p1Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
+
             }
         });
         j1p2btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j1p2Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j1p2Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
+
             }
         });
         j2p2btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j2p2Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j2p2Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j1m3btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j1p3Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j1p3Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j2p3btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j2p3Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j2p3Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j1p4btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j1p4Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j1p4Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j2p4btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j2p4Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j2p4Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j1p5btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j1p5Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j1p5Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j2p5btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j2p5Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j2p5Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j1p6btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j1p6Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j1p6Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j2p6btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j2p6Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j2p6Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j1p7btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j1p7Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j1p7Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j2p7btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j2p7Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j2p7Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j1p8btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j1p8Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j1p8Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
         j2p8btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-                pformulaire.getAccessibleContext();
-                //j2p8Label.setText();
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
+                j2p8Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
             }
         });
     }
 
+    public void updatePlanning(){
+        revalidate();
+        repaint();
+        createPanel();
+    }
+
     public static void main(String[] args) {
-        Pformulaire pformulaire = new Pformulaire();
-        Planninggene planninggene = new Planninggene(pformulaire);
+        Planninggene planninggene = new Planninggene();
     }
 }

@@ -50,8 +50,10 @@ public class Planninggene extends JFrame{
     private JLabel j2p8Label;
     private JButton j2p8btn;
     private Joueur joueur;
+    private Pformulaire formulaire;
 
-    public Planninggene() {
+    public Planninggene(Pformulaire formulaire) {
+        this.formulaire = formulaire;
         setContentPane(mainFrame);
         setSize(600, 600);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -60,10 +62,8 @@ public class Planninggene extends JFrame{
         j1p1btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Pformulaire pformulaire = new Pformulaire();
-
-                joueur = pformulaire.getjFormulaire();
-                System.out.printf(joueur.getNom());
+                formulaire.setVisible(true);
+                joueur = formulaire.getjFormulaire();
                 j1p1Label.setText(joueur.getPrenom()+ " "+ joueur.getNom());
 
 
@@ -192,6 +192,7 @@ public class Planninggene extends JFrame{
     }
 
     public static void main(String[] args) {
-        Planninggene planninggene = new Planninggene();
+        Pformulaire pformulaire = new Pformulaire();
+        Planninggene planninggene = new Planninggene(pformulaire);
     }
 }

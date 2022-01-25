@@ -1,10 +1,10 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:8889
--- Généré le : lun. 24 jan. 2022 à 12:29
--- Version du serveur : 5.7.34
+-- Généré le : lun. 24 jan. 2022 à 15:59
+-- Version du serveur :  5.7.34
 -- Version de PHP : 7.4.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -413,19 +413,6 @@ CREATE TABLE `Matchs` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `Planning`
---
-
-CREATE TABLE `Planning` (
-  `id_planning` int(11) NOT NULL,
-  `date_debut` date NOT NULL,
-  `date_fin` date NOT NULL,
-  `libelle` varchar(40) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
 -- Structure de la table `Ramasseur`
 --
 
@@ -613,12 +600,6 @@ ALTER TABLE `Matchs`
   ADD PRIMARY KEY (`id_match`);
 
 --
--- Index pour la table `Planning`
---
-ALTER TABLE `Planning`
-  ADD PRIMARY KEY (`id_planning`);
-
---
 -- Index pour la table `Ramasseur`
 --
 ALTER TABLE `Ramasseur`
@@ -687,12 +668,6 @@ ALTER TABLE `Licencie`
 --
 ALTER TABLE `Matchs`
   MODIFY `id_match` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT pour la table `Planning`
---
-ALTER TABLE `Planning`
-  MODIFY `id_planning` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT pour la table `Ramasseur`

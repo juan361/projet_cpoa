@@ -37,7 +37,8 @@ public class Pformulaire extends JFrame {
         validerB.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jFormulaire = new Joueur(nomTF.getText(), prenomTF.getText(), Integer.parseInt(classTF.getText()), natTF.getText());
+                Joueur j = new Joueur(nomTF.getText(), prenomTF.getText(), Integer.parseInt(classTF.getText()), natTF.getText());
+                setjFormulaire(j);
                 System.out.printf(jFormulaire.getNom());
             }
         });

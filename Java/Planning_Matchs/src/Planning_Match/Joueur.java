@@ -6,6 +6,7 @@
 
 package Planning_Match;
 
+import java.util.Random;
 public class Joueur{
    private static int idJoueur;
    private String nom;
@@ -20,9 +21,18 @@ public class Joueur{
       this.atp = classement;
       this.nationnalite= nationalite;
    }
-   public int getIdJoueur() {
-      return idJoueur;
+
+   public Joueur(String nom, String prenom,int classement, String nationalite){
+      this.nom = nom;
+      this.prenom = prenom;
+      this.atp = classement;
+      this.nationnalite = nationalite;
+      Random shu = new Random();
+      int r = shu.nextInt(50);
+      this.idJoueur = r;
    }
+
+   public int getIdJoueur() { return idJoueur;}
 
    public String getNom() {
       return nom;

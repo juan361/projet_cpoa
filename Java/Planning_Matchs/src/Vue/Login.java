@@ -18,8 +18,8 @@ public class Login implements ActionListener {
     private static JPasswordField pwdText;
     private static JButton valid;
     private static JLabel wrong;
-            
-    public Login(){
+
+    public static void main(String[] args){
         //création de la fenêtre login
         panel = new JPanel();
         frame = new JFrame();

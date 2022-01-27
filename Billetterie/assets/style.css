@@ -359,6 +359,7 @@ ul.menu ul li
     display: block;
     margin: -50px 0px 0px 8.5px;
     padding: 5px;
+    text-align: center;
     text-decoration: none;
 }
 

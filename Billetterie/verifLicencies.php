@@ -1,5 +1,6 @@
 <?php include_once('header.php');
-include('./models/LicencieManager.php');?>
+include('./models/LicencieManager.php');
+ini_set('display_errors','off');?>
     <div class="form">
         <form method="post">
             <h1 id="titre2v">Vérification du code licencié</h1>

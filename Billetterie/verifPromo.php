@@ -1,5 +1,6 @@
 <?php include_once('header.php');
-include('./models/AssociationManager.php');?>
+include('./models/AssociationManager.php');
+ini_set('display_errors','off');?>
     <div class="form">
         <form method="POST">
             <h1 id="titre2v">Vérification du code promotionnel de cette année</h1>
